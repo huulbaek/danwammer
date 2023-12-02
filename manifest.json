@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Dan Wammer!",
+  "description": "Blocks Dan Jørgensen, Thorborg, Jarlov & Wammen from dr.dk",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://*.dr.dk/*"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

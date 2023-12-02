@@ -1,0 +1,1 @@
+En Google Chrome extension, der fjerner Dan Jørgensens navn fra alle artikler på dr.dk.

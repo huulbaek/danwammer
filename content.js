@@ -2,7 +2,8 @@ const offensiveList = [
   "dan jørgensen",
   "thorborg",
   "wammen",
-  "jarlov"
+  "jarlov",
+  "tesfaye",
 ];
 const match = offensiveList.join("|");
 
